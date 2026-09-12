@@ -1,4 +1,3 @@
-
 **Olaf Herrera Silguero**
 ***2630250***
 
@@ -50,22 +49,17 @@ Crear un repositorio local utilizando Git, sincronizarlo con un repositorio remo
 * Envie los cambios a GitHub con el comando `git push`
 * volvi a GitHub para verificar los cambios
 ---
-# Comandos de Git utilizados
-```bash 
-git init
-git branch -M main
-git status
-git add .
-git commit -m "Primer commit"
-git remote add origin URL_DEL_REPOSITORIO
-git remote -v
-git push -u origin main
-git pull origin main
-git commit -m "Actualización desde repositorio local"
-git push
-```
-
-Explicación breve de la función de cada comando
+Comandos de Git utilizados | Explicación breve de la función de cada comando
+| :--- | :--- |
+| git init | inicia un repertorio
+| git status | Verifica el estado
+| git add . | Agrega los cambios
+| git commit -m " " | crea un commit
+| git remote add origin URL_DEL_REPOSITORIO | Vincula el repositorio local con el repositorio remoto
+| git remote -v | Verifica que el repositorio remoto se haya agregado correctamente
+| git push -u origin main | Envia por primera vez el repositorio local a GitHub.
+| git pull origin main | Descarga los cambios realizados en GitHub
+| git push | Sube los cambios realizados en la terminal a GitHub
 
 ---
 # Explicación de cómo se creó el repositorio local
@@ -82,11 +76,11 @@ Descargar los cambios que se hicieron directamente en GitHub hacia tu computador
 ---
 # Descripción de los archivos contenidos en el repositorio
 ### En el archivo **README.md** contiene:
-```
 Informacion para crear un repositorio .git de manera local y como vincularlo a GitHub. Tambien los paso para subir y descargar los cambios del repositorio.
-```
+
 ### Y en el archivo **texto.txt** contiene:
-```
 Es una practica para ver como se subia y editada en el repositorio local y en el de GitHub 
-```
+
 ---
+# Conclusión personal sobre lo aprendido
+No es tan complicado crear un repositorio y vincularlo, yo no tuve problemas en ningun paso y la practica se me hiso intererante, con esto creo que ya me quedo claro como hacer repositorios, vinculados y realizar basicamente un formato .md
